@@ -1,0 +1,415 @@
+<%- include('../partials/head') %>
+<body id="top">
+   <!-- Preloader -->
+   <div id="preloader">
+      <div class="spinner">
+         <div class="bounce1"></div>
+      </div>
+      <!-- /spinner -->
+   </div>
+   <!-- /Preloader ends -->
+   <nav id="main-nav" class="navbar-expand-xl fixed-top">
+      <div class="row">
+         <!-- Start Top Bar -->
+         <div class="container-fluid top-bar">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-12">
+                     <!-- Start Contact Info -->
+                     <ul class="contact-details float-left">
+                        <li><i class="fa fa-map-marker"></i>Manipal University Jaipur</li>
+                        <li><i class="fa fa-envelope"></i><a href="mailto:email@site.com">doggydoadoption@gmail.com</a></li>
+                        <li><i class="fa fa-phone"></i>9004429573</li>
+                     </ul>
+                     <!-- End Contact Info -->
+                     <!-- Start Social Links -->
+                     <ul class="social-list float-right list-inline">
+                        <li class="list-inline-item"><a title="Facebook" href="https://www.facebook.com/profile.php?id=100081292961379"><i class="fab fa-facebook-f"></i></a></li>
+                        <li class="list-inline-item"><a title="Twitter" href="https://twitter.com/DoggyDo2022"><i class="fab fa-twitter"></i></a></li>
+                        <li class="list-inline-item"><a  title="Instagram" href="https://www.instagram.com/doggydoadoption/"><i class="fab fa-instagram"></i></a></li>
+                     </ul>
+                     <!-- /End Social Links -->
+                  </div>
+                  <!-- col-md-12 -->
+               </div>
+               <!-- /row -->
+            </div>
+            <!-- /container -->
+         </div>
+         <!-- End Top bar -->
+         <!-- Navbar Starts -->
+         <div class="navbar container-fluid">
+            <div class="container ">
+               <!-- logo -->
+               <a class="navbar-brand" href="index">
+               <i class="flaticon-dog-8"></i><span>DoggyDo</span>
+               </a>
+               <!-- Navbartoggler -->
+               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggle-icon">
+               <i class="fas fa-bars"></i>
+               </span>
+               </button>
+               <div class="collapse navbar-collapse" id="navbarResponsive">
+                  <ul class="navbar-nav ml-auto">
+                     <!-- menu item -->
+                     <li class="nav-item active">
+                        <a class="nav-link" href="index">Home
+                        </a>
+                     </li>
+                     <!-- menu item -->
+                     <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="services-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Services
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="services-dropdown">
+                           <a class="dropdown-item" href="services">Services</a>
+                        </div>
+                     </li>
+                     <!-- menu item -->
+                     <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="about-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        About
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="about-dropdown">
+                           <a class="dropdown-item" href="about">About 1</a>
+                           <a class="dropdown-item" href="about2">About 2</a>
+                        </div>
+                     </li>
+                     <!-- menu item -->
+                     <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="adopt-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Adopt
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="adopt-dropdown">
+                           <a class="dropdown-item" href="adoption">Adoption Gallery</a>
+                           <a class="dropdown-item" href="adoption-single">Adoption Single</a>
+                           <a class="dropdown-item" href="form">Adoptions Form</a>
+
+                        </div>
+                     </li>
+                     <!-- menu item -->
+                     <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="gallery-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Gallery
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="gallery-dropdown">
+                          
+                           <a class="dropdown-item" href="gallery2">Gallery</a>
+                        </div>
+                     </li>
+                     <!-- menu item -->
+                     <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="contact-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Contact
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="contact-dropdown">
+                           <a class="dropdown-item" href="contact">Contact</a>
+
+                        </div>
+                     </li>
+                     <!-- menu item -->
+                     <li class="nav-item">
+                        <div class="container">
+                          <a class="nav-link" id="modal_trigger" href="#modal">Login</a>                             
+                      </li>
+                  </ul>
+                  <!--/ul -->
+               </div>
+               <!--collapse -->
+            </div>
+            <!-- /container -->
+         </div>
+         <!-- /navbar -->
+      </div>
+      <!--/row -->
+   </nav>
+   <!-- /nav -->
+   <div id="modal" class="popupContainer" style="display: none">
+      <header class="popupHeader">
+       <span class="header_title">Login</span>
+      <span class="modal_close"><i class="fa fa-times"></i></span>
+       </header>
+ 
+   <section class="popupBody">
+     <!-- Social Login -->
+     <div class="social_login">
+       <div class="">
+         <a href="#" class="social_box fb">
+           <span class="icon"><i class="fa fa-facebook"></i></span>
+           <span class="icon_title">Connect with Facebook</span>
+         </a>
+ 
+         <a href="#" class="social_box google">
+           <span class="icon"><i class="fa fa-google"></i></span>
+           <span class="icon_title">Connect with Google</span>
+         </a>
+       </div>
+ 
+       <div class="centeredText">
+         <span>Or use your Email address</span>
+       </div>
+ 
+       <div class="action_btns">
+         <div class="one_half">
+           <a href="#" id="login_form" class="btn">Login</a>
+         </div>
+         <div class="one_half last">
+           <a href="#" id="register_form" class="btn">Sign up</a>
+         </div>
+       </div>
+     </div>
+ 
+     <!-- Username & Password Login form -->
+     <div class="user_login">
+       <form action="/login" method="POST">
+         <label>Email</label>
+         <input type="email" required placeholder="Email" name="email" />
+         <br />
+ 
+         <label>Password</label>
+         <input
+           type="password"
+           class="password"
+           required
+           placeholder="Password"
+           name="password"
+         />
+ 
+         <br />
+ 
+         <div class="checkbox">
+           <input id="remember" type="checkbox" />
+           <label for="remember">Remember me</label>
+         </div>
+ 
+         <div class="action_btns">
+           <div class="one_half">
+             <a href="#" class="btn back_btn"
+               ><i class="fa fa-angle-double-left"></i> Back</a
+             >
+           </div>
+           <div class="one_half last">
+             <input type="submit" class="btn btn_red" value="LOGIN" />
+           </div>
+         </div>
+       </form>
+ 
+       <a href="#" class="forgot_password">Forgot password?</a>
+     </div>
+ 
+     <!-- Register Form -->
+     <div class="user_register">
+       <form>
+         <label>Full Name</label>
+         <input type="text" />
+         <br />
+ 
+         <label>Email Address</label>
+         <input type="email" />
+         <br />
+ 
+         <label>Password</label>
+         <input type="password" />
+         <br />
+ 
+         <div class="checkbox">
+           <input id="send_updates" type="checkbox" />
+           <label for="send_updates">Send me occasional email updates</label>
+         </div>
+ 
+         <div class="action_btns">
+           <div class="one_half">
+             <a href="#" class="btn back_btn"
+               ><i class="fa fa-angle-double-left"></i> Back</a
+             >
+           </div>
+           <div class="one_half last">
+             <a href="#" class="btn btn_red">Register</a>
+           </div>
+         </div>
+       </form>
+     </div>
+   </section>
+ </div>
+
+
+
+ <section id="about" class="dog-bg2">
+   <div class="container">
+      <div class="section-heading text-center">
+         <h2>Thank You!</h2>
+      </div>
+      <!-- /Section-heading -->
+   </div>
+   <!-- /container -->
+   <div class="container block-padding pt-0">
+      <div class="row">
+         <div class="col-lg-6">
+            <h3>Your response was recorded</h3>
+            <p>You will be reverted back by email and text in 24 hours</p>
+           
+            
+         </div>
+         <!-- image -->
+         <div class="col-lg-6">
+            <img src="img/about2.webp" alt="" class="img-fluid border-irregular1" data-aos="zoom-in">
+         </div>
+      </div>
+      <!-- /row -->
+   </div>
+   <!-- /container -->
+   <div class="bg-light-custom block-padding">
+      <div class="container">
+         <div id="counter" class="row">
+            <!-- Counter -->
+            <div class="col-xl-3 col-md-6">
+               <div class="counter">
+                  <i class="counter-icon fa fa-users"></i>
+                  <!-- insert your final value on data-count= -->
+                  <div class="counter-value" data-count="158">0</div>
+                  <h3 class="title">Happy Clients</h3>
+               </div>
+               <!-- /counter -->
+            </div>
+            <!-- /col-lg -->
+            <!-- Counter -->
+            <div class="col-xl-3 col-md-6">
+               <div class="counter">
+                  <i class="counter-icon flaticon-dog-in-front-of-a-man"></i>
+                  <!-- insert your final value on data-count= -->
+                  <div class="counter-value" data-count="7">0</div>
+                  <h3 class="title">Professionals</h3>
+               </div>
+               <!-- /counter -->
+            </div>
+            <!-- /col-lg -->
+            <!-- Counter -->
+            <div class="col-xl-3 col-md-6">
+               <div class="counter">
+                  <i class="counter-icon flaticon-dog-2"></i>
+                  <!-- insert your final value on data-count= -->
+                  <div class="counter-value" data-count="170">0</div>
+                  <h3 class="title">Adopted Pets</h3>
+               </div>
+               <!-- /counter -->
+            </div>
+            <!-- /col-lg -->
+            <!-- Counter -->
+            <div class="col-xl-3 col-md-6">
+               <div class="counter">
+                  <i class="counter-icon flaticon-prize-badge-with-paw-print"></i>
+                  <!-- insert your final value on data-count= -->
+                  <div class="counter-value" data-count="2">0</div>
+                  <h3 class="title">Prizes</h3>
+               </div>
+               <!-- /counter -->
+            </div>
+            <!-- /col-lg -->
+         </div>
+         <!-- /row -->
+      </div>
+      <!-- /container -->
+   </div>
+   <!-- /block-padding -->
+   <div class="container bottom-block-padding">
+      <h3 class="text-center">What our clients say</h3>
+      <div class="col-md-12">
+         <div id="owl-testimonial" class="owl-carousel owl-theme">
+            <!-- testimonial -->
+            <div class="testimonial">
+               <div class="content">
+                  <p class="description">
+                     I am very happy to adopt Olivia. I was fortunate enough to find her on Doggy-Do. Last year, covid hit us hard and it forced us to spend our time locked up at home. With our son all grown up, we could feel a vacuum. That’s when we decided to bring a dog home. Then Olivia came to our home, she used to keep us cheered up the whole day. All thanks to Doggy-Do!
+                  </p>
+               </div>
+               <!-- /content -->
+               <div class="testimonial-pic">
+                  <img src="img/team/team1.webp" class="img-fluid" alt="">
+               </div>
+               <!-- /testimonial-pic -->
+               <div class="testimonial-review">
+                  <h5 class="testimonial-title">Aditi Rao</h5>
+                  <span>Teacher</span>
+               </div>
+               <!-- /testimonial-review -->
+            </div>
+            <!-- /testimonial -->
+            <!-- testimonial -->
+            <div class="testimonial">
+               <div class="content">
+                  <p class="description">
+                     Aliquam erat volutpat In id fermentum augue, ut pellentesque leo. Maecenas at arcu risus. Donec commodo sodales ex, scelerisque laoreet nibh hendrerit id. In aliquet magna nec lobortis maximus. Etiam rhoncus leo a dolor placerat, nec elementum ipsum convall.                        
+                  </p>
+               </div>
+               <!-- /content -->
+               <div class="testimonial-pic">
+                  <img src="img/team/team2.png" class="img-fluid" alt="">
+               </div>
+               <!-- /testimonial-pic -->
+               <div class="testimonial-review">
+                  <h5 class="testimonial-title">John Sadana</h5>
+                  <span>Doctor</span>
+               </div>
+               <!-- /testimonial-review -->
+            </div>
+            <!-- /testimonial -->
+            <!-- testimonial -->
+            <div class="testimonial">
+               <div class="content">
+                  <p class="description">
+                     Being a teacher is very difficult to give time to my children, so I decided to adopt a dog for my family. All thanks to Doggy-Do I was able to find Ginger. Today Ginger is 2.5 years old, he loves watching Animal Planet on TV with my children, he even sleeps with them, chases butterflies, and plays with them.                
+                  </p>
+               </div>
+               <!-- /content -->
+               <div class="testimonial-pic">
+                  <img src="img/team/team3.jpg" class="img-fluid" alt="">
+               </div>
+               <!-- /testimonial-pic -->
+               <div class="testimonial-review">
+                  <h5 class="testimonial-title">Sonali Gupta</h5>
+                  <span>Doctor</span>
+               </div>
+               <!-- /testimonial-review -->
+            </div>
+            <!-- /testimonial -->
+         </div>
+         <!-- /owl-testimonial -->
+      </div>
+      <!-- /col-md-12 -->
+   </div>
+   <!-- /container -->
+</section>
+
+
+
+ <%- include('../partials/footer') %> 
+
+ <!--/ footer-->
+ <!-- Bootstrap core & Jquery -->
+ <script src="vendor/jquery/jquery.min.js"></script>
+ <script src='vendor/jquery/jquery.leanModal.min.js'></script>
+ <script  src="js/script.js"></script>
+
+ <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+ <!-- Custom Js -->
+ <script src="js/custom.js"></script>
+ <script src="js/plugins.js"></script>
+ <!-- GreenSock -->
+ <script src="vendor/layerslider/js/greensock.js"></script>
+ <!-- LayerSlider script files -->
+ <script src="vendor/layerslider/js/layerslider.transitions.js"></script>
+ <script src="vendor/layerslider/js/layerslider.kreaturamedia.jquery.js"></script>
+ <script src="vendor/layerslider/js/layerslider.load.js"></script>
+  <!-- Open Street maps -->
+ <script src="js/map.js"></script>
+ <!-- Mailchimp script -->
+ <script src="js/mailchimp.js"></script>
+ <!-- number counter script -->
+ <script src="js/counter.js"></script>
+ <!-- Contact Form script -->
+ <script src="js/contact.js"></script>
+<!-- Prefix free -->
+ <script src="js/prefixfree.min.js"></script>
+</body>
+</html>

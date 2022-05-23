@@ -1,0 +1,436 @@
+<%- include('../partials/head') %>
+<body id="top">
+   <!-- Preloader -->
+   <div id="preloader">
+      <div class="spinner">
+         <div class="bounce1"></div>
+      </div>
+      <!-- /spinner -->
+   </div>
+   <!-- /Preloader ends -->
+   <nav id="main-nav" class="navbar-expand-xl fixed-top">
+      <div class="row">
+         <!-- Start Top Bar -->
+         <div class="container-fluid top-bar">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-12">
+                     <!-- Start Contact Info -->
+                     <ul class="contact-details float-left">
+                        <li><i class="fa fa-map-marker"></i>Manipal University Jaipur</li>
+                        <li><i class="fa fa-envelope"></i><a href="mailto:email@site.com">doggydoadoption@gmail.com</a></li>
+                        <li><i class="fa fa-phone"></i>9004429573</li>
+                     </ul>
+                     <!-- End Contact Info -->
+                     <!-- Start Social Links -->
+                     <ul class="social-list float-right list-inline">
+                        <li class="list-inline-item"><a title="Facebook" href="https://www.facebook.com/profile.php?id=100081292961379"><i class="fab fa-facebook-f"></i></a></li>
+                        <li class="list-inline-item"><a title="Twitter" href="https://twitter.com/DoggyDo2022"><i class="fab fa-twitter"></i></a></li>
+                        <li class="list-inline-item"><a  title="Instagram" href="https://www.instagram.com/doggydoadoption/"><i class="fab fa-instagram"></i></a></li>
+                     </ul>
+                     <!-- /End Social Links -->
+                  </div>
+                  <!-- col-md-12 -->
+               </div>
+               <!-- /row -->
+            </div>
+            <!-- /container -->
+         </div>
+         <!-- End Top bar -->
+         <!-- Navbar Starts -->
+         <div class="navbar container-fluid">
+            <div class="container ">
+               <!-- logo -->
+               <a class="navbar-brand" href="index">
+               <i class="flaticon-dog-8"></i><span>DoggyDo</span>
+               </a>
+               <!-- Navbartoggler -->
+               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggle-icon">
+               <i class="fas fa-bars"></i>
+               </span>
+               </button>
+               <div class="collapse navbar-collapse" id="navbarResponsive">
+                  <ul class="navbar-nav ml-auto">
+                     <!-- menu item -->
+                     <li class="nav-item active">
+                        <a class="nav-link" href="index">Home
+                        </a>
+                     </li>
+                     <!-- menu item -->
+                     <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="services-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Services
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="services-dropdown">
+                           <a class="dropdown-item" href="services">Services</a>
+                        </div>
+                     </li>
+                     <!-- menu item -->
+                     <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="about-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        About
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="about-dropdown">
+                           <a class="dropdown-item" href="about">About 1</a>
+                           <a class="dropdown-item" href="about2">About 2</a>
+                        </div>
+                     </li>
+                     <!-- menu item -->
+                     <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="adopt-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Adopt
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="adopt-dropdown">
+                           <a class="dropdown-item" href="adoption">Adoption Gallery</a>
+                           <a class="dropdown-item" href="adoption-single">Adoption Single</a>
+                           <a class="dropdown-item" href="form">Adoptions Form</a>
+
+                        </div>
+                     </li>
+                     <!-- menu item -->
+                     <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="gallery-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Gallery
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="gallery-dropdown">
+                          
+                           <a class="dropdown-item" href="gallery2">Gallery</a>
+                        </div>
+                     </li>
+                     <!-- menu item -->
+                     <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="contact-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Contact
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="contact-dropdown">
+                           <a class="dropdown-item" href="contact">Contact</a>
+
+                        </div>
+                     </li>
+                     <!-- menu item -->
+                     <li class="nav-item">
+                        <div class="container">
+                          <a class="nav-link" id="modal_trigger" href="#modal">Login</a>                             
+                      </li>
+                  </ul>
+                  <!--/ul -->
+               </div>
+               <!--collapse -->
+            </div>
+            <!-- /container -->
+         </div>
+         <!-- /navbar -->
+      </div>
+      <!--/row -->
+   </nav>
+   <!-- /nav -->
+   <div id="modal" class="popupContainer" style="display: none">
+      <header class="popupHeader">
+       <span class="header_title">Login</span>
+      <span class="modal_close"><i class="fa fa-times"></i></span>
+       </header>
+ 
+   <section class="popupBody">
+     <!-- Social Login -->
+     <div class="social_login">
+       <div class="">
+         <a href="#" class="social_box fb">
+           <span class="icon"><i class="fa fa-facebook"></i></span>
+           <span class="icon_title">Connect with Facebook</span>
+         </a>
+ 
+         <a href="#" class="social_box google">
+           <span class="icon"><i class="fa fa-google"></i></span>
+           <span class="icon_title">Connect with Google</span>
+         </a>
+       </div>
+ 
+       <div class="centeredText">
+         <span>Or use your Email address</span>
+       </div>
+ 
+       <div class="action_btns">
+         <div class="one_half">
+           <a href="#" id="login_form" class="btn">Login</a>
+         </div>
+         <div class="one_half last">
+           <a href="#" id="register_form" class="btn">Sign up</a>
+         </div>
+       </div>
+     </div>
+ 
+     <!-- Username & Password Login form -->
+     <div class="user_login">
+       <form action="/login" method="POST">
+         <label>Email</label>
+         <input type="email" required placeholder="Email" name="email" />
+         <br />
+ 
+         <label>Password</label>
+         <input
+           type="password"
+           class="password"
+           required
+           placeholder="Password"
+           name="password"
+         />
+ 
+         <br />
+ 
+         <div class="checkbox">
+           <input id="remember" type="checkbox" />
+           <label for="remember">Remember me</label>
+         </div>
+ 
+         <div class="action_btns">
+           <div class="one_half">
+             <a href="#" class="btn back_btn"
+               ><i class="fa fa-angle-double-left"></i> Back</a
+             >
+           </div>
+           <div class="one_half last">
+             <input type="submit" class="btn btn_red" value="LOGIN" />
+           </div>
+         </div>
+       </form>
+ 
+       <a href="#" class="forgot_password">Forgot password?</a>
+     </div>
+ 
+     <!-- Register Form -->
+     <div class="user_register">
+       <form>
+         <label>Full Name</label>
+         <input type="text" />
+         <br />
+ 
+         <label>Email Address</label>
+         <input type="email" />
+         <br />
+ 
+         <label>Password</label>
+         <input type="password" />
+         <br />
+ 
+         <div class="checkbox">
+           <input id="send_updates" type="checkbox" />
+           <label for="send_updates">Send me occasional email updates</label>
+         </div>
+ 
+         <div class="action_btns">
+           <div class="one_half">
+             <a href="#" class="btn back_btn"
+               ><i class="fa fa-angle-double-left"></i> Back</a
+             >
+           </div>
+           <div class="one_half last">
+             <a href="#" class="btn btn_red">Register</a>
+           </div>
+         </div>
+       </form>
+     </div>
+   </section>
+ </div>
+
+  <!-- login  -->
+
+
+
+      <!-- Jumbotron -->
+      <div class="jumbotron jumbotron-fluid overlay">
+         <div class="jumbo-heading">
+            <!-- section-heading -->
+            <div class="section-heading" data-aos="zoom-in">
+               <h1>Our Services</h1>
+            </div>
+            <!-- /section-heading -->
+            <!-- Breadcrumbs -->
+            <nav aria-label="breadcrumb">
+               <ol class="breadcrumb">
+                  <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                  <li class="breadcrumb-item active" aria-current="page">Services 1</li>
+               </ol>
+            </nav>
+            <!-- /nav -->
+         </div>
+         <!-- /jumbo-heading -->
+      </div>
+      <!-- /jumbotron -->
+      <!-- ==== Page Content ==== -->
+      <div class="page">
+         <div class="container">
+            <div class="container block-padding pt-0">
+               <div class="row">
+                  <div class="col-xl-6">
+                     <h3>The best for your pet!</h3>
+                     <p>We connect you to the shelters and foster cares where a dog is ready to get to your home.</p>
+                     <p><strong>Find the dog that will give you happiness and love</strong></p>
+                     <!-- ul custom-->
+                     <ul class="custom pl-0">
+                        <li>We provide free pet grooming services, all one needs to do is the schedule and book an appointment. The pet groomer will visit your home with the equipment and get your dog cleaned.</li>
+                        <li>We provide dog training services at very minimal cost at home.
+                            Our trainers train a dog how to think, learn, and communicate with other dogs.
+                             </li>
+                        <li>We provide veterinarian services online as well as telephonically. 
+                           Any user can ask anything related to the health, nutrition, or behavior of their Pet to our vets. A real Veterinarian answers your questions.</li>
+                     </ul>
+                  </div>
+                  <!-- /col-xl-->
+                  <div class="col-xl-6">
+                     <img src="img/services2.jpg" alt=""   data-aos="fade-down"  data-aos-duration="1500"  class="img-fluid border-irregular1 border-double">
+                  </div>
+               </div>
+               <!-- /row -->
+            </div>
+            <!-- /container -->
+            <!-- services carousel -->
+            <div class="bg-light-custom block-padding border-irregular1">
+               <div id="owl-services" class="container owl-carousel owl-theme">
+                  <!-- service 1  -->
+                  <div class="col-md-12">
+                     <div class="serviceBox">
+                        <!-- service icon -->
+                        <div class="service-icon">
+                           <i class="flaticon-people-1"></i>
+                        </div>
+                        <!-- service content -->
+                        <div class="service-content">
+                           <h6>Fun Activities</h6>
+                           <p>
+                              We provide trainers which train your dog. Apart from training, it helps in the overall growth of your Dog.
+                           </p>
+                           <a class="btn btn-primary" href="services-single.ejs">read more</a>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- service 2  -->
+                  <div class="col-md-12">
+                     <div class="serviceBox">
+                        <!-- service icon -->
+                        <div class="service-icon">
+                           <i class="flaticon-pet-shelter"></i>
+                        </div>
+                        <!-- service content -->
+                        <div class="service-content">
+                           <h6>Pet Hotel</h6>
+                           <p>
+                              We provide a secured and safe environment where one can leave their dogs with us when they are on vacation or out for some reason.
+                           </p>
+                           <a class="btn btn-primary" href="services-single.html">read more</a>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- service 3  -->
+                  <div class="col-md-12">
+                     <div class="serviceBox">
+                        <!-- service icon -->
+                        <div class="service-icon">
+                           <i class="flaticon-animals-2"></i>
+                        </div>
+                        <!-- service content -->
+                        <div class="service-content">
+                           <h6>Grooming Services</h6>
+                           <p>
+                              We provide free Grooming services at home. The Pet groomer gets all the equipment for your pet and your work is done without traveling. 
+                           </p>
+                           <a class="btn btn-primary" href="services-single.html">read more</a>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- service 4 -->
+                  <div class="col-md-12">
+                     <div class="serviceBox">
+                        <!-- service icon -->
+                        <div class="service-icon">
+                           <i class="flaticon-dog-with-first-aid-kit-bag"></i>
+                        </div>
+                        <!-- service content -->
+                        <div class="service-content">
+                           <h6>Veterinary 24/7</h6>
+                           <p>
+                              We provide veterinary services online or telephonic. The Veterinarian answers your all queries regarding your dog.
+                           </p>
+                           <a class="btn btn-primary" href="services-single.html">read more</a>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- service 5 -->
+                  <div class="col-md-12">
+                     <div class="serviceBox">
+                        <!-- service icon -->
+                        <div class="service-icon">
+                           <i class="flaticon-syringe"></i>
+                        </div>
+                        <!-- service content -->
+                        <div class="service-content">
+                           <h6>Vaccines</h6>
+                           <p>
+                              We provide your dog with the latest vaccination to prevent from various diseases and also avoid spreading rabies.
+                           </p>
+                           <a class="btn btn-primary" href="services-single.html">read more</a>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- service 6 -->
+                  <div class="col-md-12">
+                     <div class="serviceBox">
+                        <!-- service icon -->
+                        <div class="service-icon">
+                           <i class="flaticon-dog-training-3"></i>
+                        </div>
+                        <!-- service content -->
+                        <div class="service-content">
+                           <h6>Training</h6>
+                           <p>
+                              We provide with well qualified trainers for your dog, so that your dog remains healthy and alert all the time.
+                           </p>
+                           <a class="btn btn-primary" href="services-single.html">read more</a>
+                        </div>
+                     </div>
+                  </div>
+                  <!--col-md-12  -->
+               </div>
+               <!-- /owl-services -->
+            </div>
+            <!-- /bg-light-custom -->   
+         </div>
+         <!--/ container -->
+         <div class="container bottom-block-padding">
+            <div class="row">
+               <div class="col-lg-5">
+                  <!-- Image -->
+                  <img src="img/services/services3.jpg" alt=""   data-aos="fade-down" class="img-fluid">
+               </div>
+               <!--/ col-lg -->
+               <div class="col-lg-7">
+                  <h4>Contact us today!</h4>
+                  <p> We work for a nobel cause i.e providing homes to the homeless dogs at the NGO. We do not have information on individual pets shown on the site. All of the information available will be shown in the pet's profile. Morever if you are interested to know more about them, then  you can fill our adoption form and directly get contacted to the NGO.</p>
+                  <p><strong>
+                     We are eager for your feedback, thoughts, comments, ideas, and suggestions. So, if you have something you would like to share with us, or want to discuss ways that your business and Doggy-Do can work together to help dogs, please get in touch at doggydoadoption@gmail.com.
+                     </strong></p>
+                  <a class="btn btn-primary" href="contact"> Contact us</a>
+               </div>
+               <!--/col-lg  -->
+            </div>
+            <!--/row -->
+         </div>
+         <!-- /container -->
+      </div>
+      <!-- /page-->
+      <!-- ==== footer ==== -->
+      <%- include('../partials/footer') %> 
+
+      <!--/ footer-->
+      <!-- Bootstrap core & Jquery -->
+      <script src="vendor/jquery/jquery.min.js"></script>
+      <script src='https://leanmodal.finelysliced.com.au/js/jquery.leanModal.min.js'></script><script  src="../../public/js/script.js"></script>
+
+      <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+      <!-- Custom Js -->
+      <script src="js/custom.js"></script>
+      <script src="js/plugins.js"></script>
+	  <!-- Prefix free -->
+      <script src="js/prefixfree.min.js"></script>
+   </body>
+</html>
